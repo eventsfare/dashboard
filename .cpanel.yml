@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/jnvdiari/public_html/organizer.eventsfare.com
+    - /bin/cp * $DEPLOYPATH
